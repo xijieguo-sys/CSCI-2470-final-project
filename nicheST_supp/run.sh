@@ -1,0 +1,13 @@
+python main_run_best_bench.py \
+  --adata_path ../output_data/genept_s_embeddings/DLPFC_151676_genept_s.h5ad \
+  --save_dir output_runs \
+  --gnn gat \
+  --model_k 1 \
+  --knn 8 \
+  --dropout 0.180 \
+  --seed 1209 \
+  --enc_dims 512 256 128 \
+  --dec_dims 128 256 512 \
+  --contra_pos_weight 0.464 \
+  --contra_neg_weight 1.700 \
+  --use_genept_s

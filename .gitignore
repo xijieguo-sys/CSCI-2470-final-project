@@ -1,0 +1,5 @@
+__pycache__/
+.DS_Store
+nicheST_supp/output_runs/
+data/
+output_data/
